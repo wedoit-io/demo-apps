@@ -13,18 +13,52 @@ html {
     color: #fff;
     width: 100%;
     text-align: center;
-    margin-top:3rem;
+    margin-top: 3rem;
     h1 {
         margin: 0;
         font-weight: 900;
         letter-spacing: 2px;
         font-size: 16rem;
-        line-height: 16rem;
+        line-height: 14rem;
     }
     h3 {
+        text-transform: uppercase;
+        letter-spacing: 6px;
         margin: 0;
-        line-height: 6.8rem;
-        font-size: 6.7rem;
+        line-height: 5rem;
+        font-size: 5rem;
         font-weight: 300;
+    }
+}
+.prj-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 5rem auto 0;
+    .prj-item {
+        flex-basis: 178px;
+        height: 178px;
+        margin: 10px;
+        border: 1px solid #fff;
+        a {
+            color: #ffF;
+            text-decoration: none;
+            .logo {
+                font-size: 10rem;
+                line-height: 12rem;
+                font-weight: 400;
+                width:100%;
+                text-align: center;
+            }
+            .title {
+              width:100%;
+              text-align: center;
+              font-size: 1.4rem;
+              line-height: 5rem;
+              letter-spacing: 2px;
+              font-weight: 300;
+            }
+        }
     }
 }
