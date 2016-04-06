@@ -1,0 +1,30 @@
+// sass --watch assets/scss/main.scss:assets/css/main.min.css --style compressed
+html {
+    font-size: 62.5%;
+}
+body,
+html {
+    background-color: #382e2a;
+    padding: 0;
+    margin: 0;
+    font-family: "Titillium Web", sans-serif;
+}
+.page-title {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top:3rem;
+    h1 {
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 2px;
+        font-size: 16rem;
+        line-height: 16rem;
+    }
+    h3 {
+        margin: 0;
+        line-height: 6.8rem;
+        font-size: 6.7rem;
+        font-weight: 300;
+    }
+}
